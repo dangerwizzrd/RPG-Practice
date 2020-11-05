@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="character-sheet.css" />
+  </head>
+  <body>
+    <script src="character-sheet.js"></script>
+    <h1>Character Sheet</h1>
+    <div id="character-basics">
+      <label>Character Name <input id="name-box" type="text" /> </label>
+      <label
+        >Level
+        <select id="char-level">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+        </select>
+      </label>
+      <label
+        >Class
+        <select id="char-class">
+          <option>Bard</option>
+          <option>Barbarian</option>
+        </select>
+      </label>
+      <label
+        >Ancestry
+        <select id="char-ancestry">
+          <option>Elf</option>
+          <option>Tiefling</option>
+        </select></label
+      >
+      <label>Background <input id="background-box" type="text" /> </label>
+      <label>Alignment <input id="alignment-box" type="text" /> </label>
+      <label
+        >Experience Points <input id="experience-box" type="text" />
+      </label>
+    </div>
+<div id="inspiration-prof">
+  <label>Inspiration <input id="skill-box" type="checkbox" /></label>
+      <label
+        >Proficiency Bonus
+        <select id="prof-bonus">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+        </select>
+</div>
+    <div id="saving-throws">
+
+      <ul id="saves-list">
+        <lh>Saving Throws</lh>
+        <li>
+          <label><input id="save-box" type="checkbox" />Strength</label>
+        </li>
+        <li>
+          <label><input id="save-box" type="checkbox" />Dexterity</label>
+        </li>
+        <li>
+          <label><input id="save-box" type="checkbox" />Constitution</label>
+        </li>
+        <li>
+          <label><input id="save-box" type="checkbox" />Intelligence</label>
+        </li>
+        <li>
+          <label><input id="save-box" type="checkbox" />Wisdom</label>
+        </li>
+        <li>
+          <label><input id="save-box" type="checkbox" />Charisma</label>
+        </li>
+      </ul>
+    </div>
+    <div id="skills">
+      <ul id="skill-list">
+        <lh>Skills</lh>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Acrobatics</label><input id="acro-bonus" class="bonus-box" type="text" readonly="true"/>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Animal Handling</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Arcana</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Athletics</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Deception</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />History</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Insight</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Intimidation</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Investigation</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Medicine</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Nature</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Perception</label>
+        </li>
+
+        <li>
+          <label><input id="skill-box" type="checkbox" />Performance</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Persuasion</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Religion</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Sleight of Hand</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Stealth</label>
+        </li>
+        <li>
+          <label><input id="skill-box" type="checkbox" />Survival</label>
+        </li>
+      </ul>
+    </div>
+
+  </body>
+</html>

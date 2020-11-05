@@ -1,0 +1,25 @@
+html {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#character-basics {
+  display: flex;
+  flex-direction: row;
+}
+
+#inspiration-prof {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+#skill-list,
+#saves-list {
+  text-align: start;
+  list-style-type: none;
+}
