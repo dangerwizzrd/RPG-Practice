@@ -6,8 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="character-sheet.css" />
   </head>
+
   <body>
-    <script src="character-sheet.js"></script>
+
     <h1>Character Sheet</h1>
     <div id="character-basics">
       <label>Character Name <input id="name-box" type="text" /> </label>
@@ -43,7 +44,7 @@
       </label>
     </div>
 <div id="inspiration-prof">
-  <label>Inspiration <input id="skill-box" type="checkbox" /></label>
+  <label>Inspiration <input id="inspo-box" type="checkbox" /></label>
       <label
         >Proficiency Bonus
         <select id="prof-bonus">
@@ -79,66 +80,69 @@
         </li>
       </ul>
     </div>
+
+<!-- SKILLS -->
+
     <div id="skills">
       <ul id="skill-list">
         <lh>Skills</lh>
         <li>
-          <label><input id="skill-box" type="checkbox" />Acrobatics</label><input id="acro-bonus" class="bonus-box" type="text" readonly="true"/>
+          <label><input class="skill-box" id="acro-box" type="checkbox" />Acrobatics </label><input id="acrobatics" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Animal Handling</label>
+          <label><input class="skill-box" id="animal-box" type="checkbox" />Animal Handling</label><input id="animal-handling" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Arcana</label>
+          <label><input class="skill-box" id="arcana-box" type="checkbox" />Arcana</label><input id="arcana" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Athletics</label>
+          <label><input class="skill-box" id="athletics-box" type="checkbox" />Athletics</label><input id="athletics" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Deception</label>
+          <label><input class="skill-box" id="deception-box" type="checkbox" />Deception</label><input id="deception" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />History</label>
+          <label><input class="skill-box" id="history-box" type="checkbox" />History</label><input id="history" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Insight</label>
+          <label><input class="skill-box" id="insight-box" type="checkbox" />Insight</label><input id="insight" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Intimidation</label>
+          <label><input class="skill-box" id="intimidation-box" type="checkbox" />Intimidation</label><input id="intimidation" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Investigation</label>
+          <label><input class="skill-box" id="investigation-box" type="checkbox" />Investigation</label><input id="investigation" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Medicine</label>
+          <label><input class="skill-box" id="medicine-box" type="checkbox" />Medicine</label><input id="medicine" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Nature</label>
+          <label><input class="skill-box" id="nature-box" type="checkbox" />Nature</label><input id="nature" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Perception</label>
+          <label><input class="skill-box" id="perception-box" type="checkbox" />Perception</label><input id="perception" class="bonus-box" type="text" readonly="true"/>
         </li>
 
         <li>
-          <label><input id="skill-box" type="checkbox" />Performance</label>
+          <label><input class="skill-box" id="performance-box" type="checkbox" />Performance</label><input id="performance" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Persuasion</label>
+          <label><input class="skill-box" id="persuasion-box" type="checkbox" />Persuasion</label><input id="persuasion" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Religion</label>
+          <label><input class="skill-box" id="religion-box" type="checkbox" />Religion</label><input id="religion" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Sleight of Hand</label>
+          <label><input class="skill-box" id="sleight-box" type="checkbox" />Sleight of Hand</label><input id="sleight-of-hand" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Stealth</label>
+          <label><input class="skill-box" id="stealth-box" type="checkbox" />Stealth</label><input id="stealth" class="bonus-box" type="text" readonly="true"/>
         </li>
         <li>
-          <label><input id="skill-box" type="checkbox" />Survival</label>
+          <label><input class="skill-box" id="survival-box" type="checkbox" />Survival</label><input id="survival" class="bonus-box" type="text" readonly="true"/>
         </li>
       </ul>
     </div>
-
+    <script src="character-sheet.js"></script>
   </body>
 </html>
